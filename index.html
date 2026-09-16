@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 600px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            background:linear-gradient(90deg,skyblue,violet);
+
+        }
+        form{
+            height: 80%;
+            width: 30%;
+            background-color: white;
+            text-transform: capitalize;
+            border-radius: 10px;
+            
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .user,.Password,.Button{
+            height: 20%;
+            width: 80%;
+            /* border: 1px solid black; */
+            margin: auto;
+        }
+
+        P{
+            text-align: center;
+        }
+        input{
+            width: 100%;
+            height: 50%;
+            background-color: lightgrey;
+            border-radius: 10px;
+            box-shadow: none;
+            border: none;
+            border: 1px solid gray;
+        }
+        h1{
+            margin: 10% 0 10% 0 ;
+        }
+        .login{
+            color: white;
+            background: linear-gradient(90deg ,skyblue,violet);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <form action="">
+            <h1 align="center">login form</h1>
+            <div class="user">
+                <label for=" ">Email or phone</label>
+                <input type="text" placeholder="xyx.gmail/com">
+            </div>
+            <div class="Password">
+                <label for=" ">password</label>
+                <input type="Password" placeholder="xyx@lonish">
+            </div>
+            <div class="Button">
+                <label for=" ">Forget Password</label>
+                <input type="submit" class="login" value="LOGIN">
+            </div>
+            <P>Not a member ? sign up </P>
+        </form>
+    </div>
+</body>
+</html>
